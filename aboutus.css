@@ -254,6 +254,7 @@
   gap: 30px;
   padding: 20px;
 }
+<<<<<<< HEAD
 .pisi-div{
   align-items: center;
   padding: 50px;
@@ -273,6 +274,9 @@
   margin-bottom: 20px;
   color: rgb(49, 48, 48);
 }
+=======
+
+>>>>>>> 2702617a25ed6b98503c1abd71018ed2c49daa68
 .team-card {
   background: #fff;
   border-radius: 10px;
@@ -311,6 +315,7 @@
   height: 24px;
   cursor: pointer;
 }
+<<<<<<< HEAD
 .join-grid {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -444,6 +449,8 @@
 }
 
 
+=======
+>>>>>>> 2702617a25ed6b98503c1abd71018ed2c49daa68
 
 
 
