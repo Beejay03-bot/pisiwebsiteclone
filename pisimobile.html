@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PisiMobile</title>
+    <link rel="stylesheet" href="pisimobile.css">   
+</head>
+<body>
+    <div>
+    <header class="header-container">
+        <div class="logo">
+            <img class="pisi-logo" src="thumbnail/logo-DlHQCySN.png">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+              <li class="dropdown">
+                <a href="#" class="header-1">Solutions <span class="arrow">˅</span></a>  
+              </li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="demo.html" class="demo-button">Book a Demo</a></li>
+            </ul>
+          </nav>
+          
+    </header>
+    <div class="power-earth">
+        <p class="power-tech">Powering<br/><span class="color-red">Africa's 
+            <br/>Businesses</span><br/> with <br/> Technology</p>
+        <img class="earth-rotate" src="thumbnail/earth-DffpMkrE.png">
+    </div>
+        <p class="elevate-content">
+            Elevate your business with seamless integration, <br/> innovative solutions,
+            and accelerated growth.
+        </p>
+    <div class="explore-container">
+        <button class="demo-btn">Book a Demo</button> 
+        <p class="offerings">Explore Our Offerings <span class="arrow">&#8594;</span></p>
+    </div>
+
+        <p class="simplify">
+            <span class="color">Simplifying <br/></span> Business <br/> Operation in <br/> Africa
+        </p>
+        <div class="pisi-container">
+            <p class="mobile-service">
+                Pisi Mobile Services Limited is your go-to tech solutions <br/> provider, 
+                revolutionizing mobile and telecommunications <br/> services across various sectors. 
+                From empowering telecom <br/> operators to enhancing financial institutions, NGOs, 
+                and <br/> government bodies, Pisi delivers the backbone for modern <br/> connectivity 
+                and innovation. Our tailored solutions span <br/> industries such as insurance, 
+                gaming, lottery, and sports <br/> betting, while our cutting-edge AdTech and FinTech 
+                services <br/> are transforming banking and FMCG. Pisi is the partner of <br/> choice for 
+                businesses seeking comprehensive, integrated <br/> tech services.
+            </p>
+            <div class="image-container">
+                <img class="hand" src="thumbnail/hand-yV64L9b_.png">
+            </div>
+        </div>
+        <div class="writeup-container">
+            <p class="solutions">Solutions tailored for <br/> all Businesses</p>
+            <p class="unleash">Unleash the power of Pisi's integrated ecosystem. It's everything you need to <br/> promote your business, manage clients, cultivate customer loyalty, and propel <br/> your business to new heights.</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <p>VAS Aggregation</p>
+                <p>Pisi Mobile Services Ltd. is a leading <br/> Mobile Value-Added Service <br/> (VAS) Aggregator.</p>
+                <p class="learn-more">Learn More <span class="arrow">&#8594;</span></p>
+                <img src="thumbnail/diacode-AKGNTUAV.png" alt="VAS Aggregation">
+            </div>
+            <div class="card">
+                <p>PISI Send</p>
+                <p>Allows for extensive bulk SMS campaigns, <br/> providing instant and targeted <br/> communication.</p>
+                <p class="learn-more">Learn More <span class="arrow">&#8594;</span></p>
+                <img src="thumbnail/tablet-LgQbGxZM.png" alt="PISI Send">
+            </div>
+        </div>    
+        <div class="container">
+            <div class="card">
+                <p>AdTech Solutions</p>
+                <p>We empower businesses with cutting-edge solutions for targeted, interactive digital advertising campaigns.</p>
+                <p class="learn-more">Learn More <span class="arrow">&#8594;</span></p>
+                <img src="thumbnail/ring-Bk6EOFB0.png">
+            </div>
+            <div class="card">
+                <p>Payment Solutions</p>
+                <p>We offer streamlined solutions for businesses and individuals, ensuring efficient and hassle-free payment experiences.</p>
+                <img src="thumbnail/cards-B0PfMM3I.png">
+            </div>
+        </div>  
+        <p class="innovative-services">
+            We are continuously looking to deliver innovative <br/> services across the continent.
+        </p>
+        <div class="container">
+            <img src="thumbnail/mtn-C6Vp0F0i.png">
+            <img src="thumbnail/glo-CJllRWtA.png">
+            <img src="thumbnail/airtel-UnygJH3F.png">
+            <img src="thumbnail/9mobile-B66EKkAK.png">
+            <img src="thumbnail/bet-Bb0rjV15.png">
+            <img src="thumbnail/bit-CsUfYajS.png">
+            <img src="thumbnail/bonanza--nVLoa-M.png">
+            <img src="thumbnail/cedar-CTDnKUAJ.png">
+            <img src="thumbnail/cowry-D02ryyhp.png">
+            <img src="thumbnail/kelloggs-BDjmNDHb.png">
+            <img src="thumbnail/nivea-DSs3afrE.png">
+            <img src="thumbnail/no-B4xQIB9z.png">
+            <img src="thumbnail/yellow-35LJu4FE.png">
+        </div>
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Ready to <br/> propel to new <br/> heights?</h1>
+                <p>Let's get you started now!</p>
+                <button class="cta-button">Get in Touch</button>
+            </div>
+            <div class="hero-image">
+                <img src="thumbnail/lady-BKPWWWdW.png">
+            </div>
+        </div>
+                
+    </div>
+    <div id="footer"></div>
+
+    <script>
+        fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById("footer").innerHTML = data;
+        });
+    </script> 
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   <div>
+    <section class="contact-section">
+        <div class="contact-text">
+          <h1>Let's Talk</h1>
+          <p>
+            Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project and provide help.
+          </p>
+      
+          <p class="sub-heading">Talk to Our Sales Team</p>
+          <p><a href="mailto:sales@pisimobile.net">sales@pisimobile.net</a></p>
+      
+          <p class="sub-heading">Socials</p>
+          <p><a href="#">LinkedIn</a></p>
+        </div>
+      
+        <form class="contact-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name"/>
+          </div>
+      
+          <div>
+            <label for="company">Company</label>
+            <input type="text" id="company"/>
+          </div>
+      
+          <div>
+            <label for="email">Company email</label>
+            <input type="email" id="email"/>
+          </div>
+      
+          <div>
+            <label for="offering">What offering are you interested in</label>
+            <select id="offering" required>
+              <option value="">Telecommunications</option>
+              <option value="vas aggregation services">Vas Aggregation Services</option>
+              <option value="adtech services">AdTech Service</option>
+            </select>
+          </div>
+      
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" placeholder=></textarea>
+          </div>
+      
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <div id="footer"></div>
+
+          <script>
+              fetch("footer.html")
+              .then(response => response.text())
+              .then(data => {
+              document.getElementById("footer").innerHTML = data;
+              });
+          </script>
+      
+   </div> 
+</body>
+</html>

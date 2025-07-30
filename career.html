@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career</title>
+    <link rel="stylesheet" href="career.css">
+</head>
+<body>
+    <div>
+        <div class="career-section">
+            <div class="career-text">
+              <p class="heading">Join Pisi</p>
+              <p class="description">
+                We are a people-centred company that looks <br/>
+                after every employee, gives autonomy to make <br/> 
+                choices, supports self-development and career <br/> growth.
+              </p>
+              <p class="cta">
+                See Open Positions <span class="arrow">&#8595;</span>
+              </p>
+            </div>
+          
+            <div class="career-image">
+              <img src="thumbnail/career1-CId-SncP.png" alt="Career at Pisi" />
+            </div>
+          </div>
+
+          <p class="pisi-great">What makes Pisi a <br/> great place <br/> to work?</p>
+
+          <div class="grid-container">
+            <div class="card">
+              <img src="thumbnail/career2-Bsbs2X2e.png" alt="Company Values" />
+              <h3>Company<br>Values</h3>
+              <p>
+                Trust, learning, honesty, and co-operation are the pillars that sit at the core of what we do.
+              </p>
+            </div>
+            <div class="card">
+              <img src="thumbnail/career3-DRDYfB3R.png" alt="Friendly Atmosphere" />
+              <h3>Friendly<br>Atmosphere</h3>
+              <p>
+                We hold a positive attitude in order to foster respect and decency for our entire team.
+              </p>
+            </div>
+            <div class="card">
+              <img src="thumbnail/career4-CU7eXxzf.png" alt="Work-life Balance" />
+              <h3>Work-life<br>balance</h3>
+              <p>
+                For us, a healthy personal life is just as important as the time you spend in the office.
+              </p>
+            </div>
+            <div class="card">
+              <img src="thumbnail/career5-CP9xdN4i.png" alt="Everyday Growth" />
+              <h3>Everyday<br>growth</h3>
+              <p>
+                We provide the necessary support to ensure your skills never stop growing.
+              </p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="left-text">
+              Don't just<br>
+              take our<br>
+              word for<br>
+              it!
+            </div>
+            <div class="right-text">
+              See feedback<br>
+              from<br>
+              members of<br>
+              our team
+            </div>
+          </div>
+          <div class="testimonial-container">
+            <div class="testimonial-left">
+              <img src="thumbnail/career6-Cm9z1lc_.png">
+            </div>
+            <div class="testimonial-content">
+              <p> I admire the company culture and, I like that. Pisi <br>
+                 is truly the place where attitude blends with <br>
+                 proficiency. If you’re going to craft something <br>
+                 great and you have a strong eagerness to do <br>
+                 that, Pisi will remove all hassles in your journey.
+                </p>
+              <div class="testimonial-name">Bukayo Ewuoso</div>
+              <div class="testimonial-role">Head Of Business, Adtech</div>
+              <a href="#" class="linkedin-link">
+                <img src="thumbnail/download (2).png"> LinkedIn profile
+              </a>
+            </div>
+            <div class="testimonial-right">
+              <img src="thumbnail/career7-BBbrJDov.png">
+            </div>
+          </div>
+          <p class="open-roles">Open Roles</p>
+
+          <div class="job-listing">
+            <div class="job-title">Strategic Finance, Associate</div>
+            <div class="job-type">Full time, On-Site</div>
+          </div>
+          
+          <div class="job-listing">
+            <div class="job-title">Head of Finance</div>
+            <div class="job-type">Full time, On-Site</div>
+          </div>
+
+          <div class="job-listing">
+            <div class="job-title">Frontend Developer</div>
+            <div class="job-type">Contract, Hybrid</div>
+          </div>
+
+          <div class="job-listing">
+            <div class="job-title">Product Manager</div>
+            <div class="job-type">Full time, Hybrid</div>
+          </div>
+
+          <div class="job-listing">
+            <div class="job-title">Marketing Manager, Principal
+            </div>
+            <div class="job-type">Full time, On-site</div>
+          </div>
+
+          <div class="job-listing">
+            <div class="job-title">Visual Designer</div>
+            <div class="job-type">Full time, Hybrid</div>
+          </div>
+
+          <div id="footer"></div>
+
+          <script>
+              fetch("footer.html")
+              .then(response => response.text())
+              .then(data => {
+              document.getElementById("footer").innerHTML = data;
+              });
+          </script>
+          
+        
+    </div>
+</body>
+</html>

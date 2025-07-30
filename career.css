@@ -1,0 +1,281 @@
+.career-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .career-text .heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .career-text .description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .career-text .cta {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .career-text .cta .arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .career-text .cta:hover .arrow {
+    transform: translateY(3px);
+  }
+  
+  .career-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .career-section {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .career-text {
+      order: 2;
+    }
+  
+    .career-image {
+      order: 1;
+      margin-bottom: 30px;
+    }
+  }
+  .pisi-great{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.6;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f9f9f9;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+
+  .card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .card p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #fff;
+    padding: 60px 40px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 20px;
+  }
+
+  .left-text {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .right-text {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #333;
+    padding-top: 200px; 
+    max-width: 160px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .left-text {
+      font-size: 2.8rem;
+    }
+
+    .right-text {
+      padding-top: 20px;
+      font-size: 1rem;
+      max-width: 100%;
+    }
+  }
+  .testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 40px;
+  }
+  
+  .testimonial-left img,
+  .testimonial-right img {
+    border-radius: 16px;
+    width: 280px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .testimonial-content {
+    flex: 1;
+    font-family: Arial, sans-serif;
+    color: #111;
+    position: relative;
+  }
+  
+  .testimonial-content p {
+    font-size: 16x;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .testimonial-content p::before {
+    content: "”";
+    font-size: 36px;
+    color: #999;
+    position: absolute;
+    left: 0;
+    top: -10px;
+  }
+  
+  
+  .testimonial-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-role {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  .linkedin-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  .open-roles{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  .job-listing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  
+  .job-title, .job-type {
+    color: #000;
+  }
+  
+  
